@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Country Guide APP</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Guide country</h1>
+        <form action="">
+            <input type="text" name="Country" id="Country" placeholder="Submit to country here...">
+            <button id="btn" type="submit">Submit</button>
+        </form>
+        <div class="content">
+            <img id="flagCountry" src="" alt="">
+            <h2 id="flag"></h1>
+            <p id="capital"></p>
+            <p id="continent"></p>
+            <p id="population"></p>
+            <p id="currency"></p>
+            <p id="cammon-language"></p>
+            <p id="region"></p>
+        </div>
+    </div>
+<script src="JS/script.js"></script>    
+</body>
 </html>
